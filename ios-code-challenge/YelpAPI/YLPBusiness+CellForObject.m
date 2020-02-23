@@ -29,7 +29,7 @@ NSString *const kNXTBusinessTableViewCellIdentifier = @"NXTBusinessTableViewCell
 
 - (CGFloat)estimatedCellHeightForObjectForTableView:(UITableView *)tableView
 {
-    return 100.0f; //55
+    return 120.0f; //55
 }
 
 @end

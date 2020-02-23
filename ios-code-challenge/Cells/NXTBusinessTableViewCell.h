@@ -15,5 +15,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *reviewCount;
 @property (weak, nonatomic) IBOutlet UILabel *distance;
 @property (weak, nonatomic) IBOutlet UIImageView *myImageView;
+@property (weak, nonatomic) IBOutlet UILabel *categories;
 
 @end

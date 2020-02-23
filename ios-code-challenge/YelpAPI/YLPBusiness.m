@@ -19,6 +19,7 @@
         _rating = attributes[@"rating"];
         _review_count = attributes[@"review_count"];
         _distance = attributes[@"distance"];
+        _categories = attributes[@"categories"];
     }
     
     return self;
