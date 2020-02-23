@@ -25,9 +25,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly, copy) NSString *name;
 
 /**
- *  Name of this Display Phone.
+ *  image.
  */
-@property (nonatomic, readonly, copy) NSString *display_phone;
+@property (nonatomic, readonly, copy) NSString *image_url;
 
 @property (nonatomic, readonly, copy) NSNumber *rating;
 

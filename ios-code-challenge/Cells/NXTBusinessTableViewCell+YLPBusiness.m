@@ -8,6 +8,7 @@
 
 #import "NXTBusinessTableViewCell+YLPBusiness.h"
 #import "YLPBusiness.h"
+#import <SDWebImage/SDWebImage.h>
 
 @implementation NXTBusinessTableViewCell (YLPBusiness) 
 
@@ -18,6 +19,10 @@
     self.ratings.text = [NSString stringWithFormat:@"%@", business.rating ];
     self.reviewCount.text = [NSString stringWithFormat:@"%@", business.review_count ];
     self.distance.text = [NSString stringWithFormat:@"%@", business.distance ];
+    
+    [self.myImageView sd_setImageWithURL:[NSURL URLWithString:business.image_url]
+    placeholderImage:[UIImage imageNamed:@"placeholder.png"]];
+    
 }
 
 #pragma mark - NXTBindingDataForObjectDelegate

@@ -15,7 +15,7 @@
     if(self = [super init]) {
         _identifier = attributes[@"id"];
         _name = attributes[@"name"];
-        _display_phone = attributes[@"display_phone"];
+        _image_url = attributes[@"image_url"];
         _rating = attributes[@"rating"];
         _review_count = attributes[@"review_count"];
         _distance = attributes[@"distance"];

@@ -17,14 +17,14 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="92"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="bog-QN-OWi">
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="bog-QN-OWi">
                         <rect key="frame" x="10" y="10" width="300" height="72"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gTe-Vv-l5F">
                                 <rect key="frame" x="0.0" y="0.0" width="72" height="72"/>
-                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="72" id="4l7-Zb-7P1"/>
+                                    <constraint firstAttribute="height" constant="72" id="DSw-5H-JXe"/>
+                                    <constraint firstAttribute="width" constant="72" id="DXq-ez-MO6"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="2zE-oH-Shr">
@@ -60,15 +60,16 @@
                     </stackView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="bog-QN-OWi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="6gP-zi-z0y"/>
-                    <constraint firstAttribute="trailing" secondItem="bog-QN-OWi" secondAttribute="trailing" constant="10" id="6vf-8t-WyP"/>
-                    <constraint firstAttribute="bottom" secondItem="bog-QN-OWi" secondAttribute="bottom" constant="10" id="IRg-lY-SEe"/>
-                    <constraint firstItem="bog-QN-OWi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="iut-WI-g2R"/>
+                    <constraint firstItem="bog-QN-OWi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="5zh-CH-6Ty"/>
+                    <constraint firstAttribute="bottom" secondItem="bog-QN-OWi" secondAttribute="bottom" constant="10" id="6NM-4f-JW1"/>
+                    <constraint firstItem="bog-QN-OWi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="K0q-DX-i5p"/>
+                    <constraint firstAttribute="trailing" secondItem="bog-QN-OWi" secondAttribute="trailing" constant="10" id="evs-i0-lyC"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
             <connections>
                 <outlet property="distance" destination="QFO-yC-QVq" id="5ED-KJ-HkC"/>
+                <outlet property="myImageView" destination="gTe-Vv-l5F" id="fXH-gW-8Yq"/>
                 <outlet property="nameLabel" destination="4Nq-bS-wOT" id="qdc-pz-Yb5"/>
                 <outlet property="ratings" destination="S12-QK-642" id="SMg-Lk-bl0"/>
                 <outlet property="reviewCount" destination="88f-ci-CGA" id="JX4-uG-fmU"/>
