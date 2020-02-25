@@ -9,6 +9,7 @@
 #import "NXTDataSource.h"
 #import "NXTCellForObjectDelegate.h"
 #import "NXTBindingDataForObjectDelegate.h"
+//#import "ios_code_challenge-Swift.h"
 
 @interface NXTDataSource()
 
@@ -79,6 +80,7 @@
     }
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
 }
     
 - (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath

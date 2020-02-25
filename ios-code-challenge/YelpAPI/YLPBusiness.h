@@ -7,7 +7,7 @@
 //
 
 @import Foundation;
-#import "ios_code_challenge-Swift.h"
+//#import "ios_code_challenge-Swift.h"
 //#import "ios_code_challenge-Swift.h"
 
 NS_ASSUME_NONNULL_BEGIN
@@ -37,7 +37,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, readonly, copy) NSNumber *distance;
 
-@property (nonatomic, readonly, copy) NSArray<Categories*> *categories;
+//@property (nonatomic, readonly, copy) NSArray<Categories*> *categories;
 
 
 

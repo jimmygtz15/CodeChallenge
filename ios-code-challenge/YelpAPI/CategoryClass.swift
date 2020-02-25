@@ -8,7 +8,7 @@
 
 import Foundation
 
-@objc class Categories: NSObject, Decodable {
+class Categories: NSObject, Decodable {
     var alias: String?
     var title: String?
 }
